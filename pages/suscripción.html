@@ -4,16 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pagina categoria de terror" />
+    <meta
+      name="description"
+      content="Pagina de subcipcion del servicio de rollingPlusUltra"
+    />
     <meta
       name="keywords"
-      content="pelciualas de terror disponibles"
+      content="formulario, email, rollingPlusUltraSuscripcion"
     />
-    <meta name="author" content="Choque Leonel Ezequiel" />
+    <meta name="author" content="Grupo 6" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>RollingBank</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>rollingPlusUltraSuscripcion</title>
   </head>
+
   <body class="bg-white">
     <header>
       <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
@@ -39,12 +47,12 @@
           <div class="collapse navbar-collapse" id="paginas">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link  fw-bold" aria-current="page" href="../index.html"
+                <a class="nav-link active fw-bold" aria-current="page" href="../index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold active" href="./categoriaTerror.html">Categorias</a>
+                <a class="nav-link fw-bold" href="./categoriaTerror.html">Categorias</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-bold" href="./Quienessomos.html">¿Quienes somos?</a>
@@ -85,85 +93,163 @@
       </nav>
     </header>
     <main>
-      <section class="row row-cols-2 row-cols-md-3 g-4 m-1 m-lg-4">
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-bg-dark">
-            <img src="../img/ouija.jpeg" class="rounded" alt="..." />
-          </div>
-        </div>
+      <!-- Formulario de subcripcion -->
+      <section class="text-white text-center">
+        <h3 class="m-3">Formulario de subcripcion</h3>
+        <hr>
       </section>
-      <section class="mt-4 ">
-        <ul class="pagination justify-content-center ">
-          <li class="page-item disabled ">
-            <a class="page-link text-bg-dark" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
-          </li>
-          <li class="page-item "><a class="page-link text-bg-dark bg-dark" href="./categoriaTerror.html">1</a></li>
-          <li class="page-item "><a class="page-link text-bg-dark bg-dark" href="./categoriaTerror2.html">2</a></li>
-          <li class="page-item active"><a class="page-link text-bg-dark bg-secondary" href="./categoriaTerror3.html">3</a></li>
-          <li class="page-item ">
-            <a class="page-link disabled text-bg-dark bg-dark" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-            </a>
-          </li>
-        </ul>
+      <section class="row justify-content-center row-cols-12 row-cols-md-8 row-cols-lg-2 g-4 m-1 m-lg-4">
+        <form class="my-4 mx-2 mx-md-4">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Nombre</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Apellido</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Dirección</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Correo Electrónico</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              No compartiremos tu correo electrónico con nadie mas.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-white"
+              >Contraseña</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label
+              class="form-check-label form-label text-white"
+              for="exampleCheck1"
+              >Verificar</label
+            >
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary"
+            href="/pages/error404.html"
+          >
+            Enviar
+          </button>
+        </form>
       </section>
+      <div
+        class="modal fade"
+        id="modalLabel"
+        tabindex="-1"
+        aria-labelledby="modalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 mx-auto text-white" id="modalLabel">
+                Iniciar Sesion
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="./page/error404.html">
+                <div class="mb-3">
+                  <label for="emails" class="form-label text-white"
+                    >Dirección de Correo electrónico</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="emails"
+                    aria-describedby="emailHelp"
+                    minlength="3"
+                    maxlength="30"
+                    class="form-control"
+                    placeholder="Correo electronico"
+                    required
+                  />
+                  <div id="emailHelp" class="form-text text-white">
+                    Nunca compartiremos su correo electrónico con nadie más.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="contraseñass" class="form-label text-white"
+                    >Contraseña</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="contraseñass"
+                    minlength="3"
+                    maxlength="20"
+                    class="form-control"
+                    placeholder="Contraseña"
+                    required
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="checkear"
+                  />
+                  <label class="form-check-label text-white" for="checkear"
+                    >Recordar</label
+                  >
+                </div>
+                <button type="submit" class="ingreso">Ingresar</button>
+                <p class="text-white">
+                  ¿Aun no te suscribiste? <a class="link" href="">Suscribete</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="p-3 bg-dark text-white">
       <section>
@@ -172,7 +258,7 @@
             <div class="text-center text-md-start">
               <img
                 class="logoFooter"
-                src="./img/logo2.png"
+                src="../img/logo2.png"
                 alt="Logo de RollingPlusUltra"
               />
             </div>
@@ -292,6 +378,6 @@
       <hr />
       <p class="text-center">&copy; Todos los derechos reservados</p>
     </footer>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
