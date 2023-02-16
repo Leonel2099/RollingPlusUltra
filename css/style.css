@@ -110,28 +110,7 @@ body {
 .carousel-control-next-icon {
   background-image: url(../img/der.png);
 }
-/* .scrolling-wrapper::-webkit-scrollbar {
-  height: 10px;
-  width: 10px;
-  background: #0c0d49;
-}
-.scrolling-wrapper::-webkit-scrollbar-thumb:horizontal {
-  background: #4e3f92;
-  border-radius: 10px;
-}
-.scrolling-wrapper {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 29%;
-  overflow-x: auto;
-}
-.scrolling-wrapper div{
-  width: 190px;
-} */
 @media screen and (max-width: 575px) {
-  /* .scrolling-wrapper {
-    grid-auto-columns: 60%;
-  } */
   .imgBanner {
     height: 170px;
   }
